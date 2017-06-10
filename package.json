@@ -1,0 +1,30 @@
+{
+  "name": "myDrifter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suman030266/myDrifter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suman030266/myDrifter/issues"
+  },
+  "homepage": "https://github.com/suman030266/myDrifter#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "bytes": "^2.5.0",
+    "express": "^4.15.3",
+    "finalhandler": "^1.0.3",
+    "iconv-lite": "^0.4.17",
+    "mongoose": "^4.10.5",
+    "redis": "^2.7.1",
+    "request": "^2.81.0"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+	<h1>扔瓶子</h1>
+	<form action="http://127.0.0.1:8989" method="post">
+		<!--owner=xxx&type=xxx&content=xxx[&type=xxx]-->
+		<input type="text" value="sss" name="owner" />
+		<input type="text" value="content3456" name="content" />
+		<input type="text" value="male" name="type" />
+		<input type="submit"/>
+	</form>
+	<hr></hr>
+	<hr></hr>
+	<hr></hr>
+	<h1>捡瓶子</h1>
+	<form action="http://127.0.0.1:8989" method="get">
+		<!--user=xxx&type=male-->
+		<input type="text" value="sss" name="user" />
+		<input type="text" value="male" name="type" />
+		<input type="submit"/>
+	</form>
+	<hr></hr>
+	<hr></hr>
+	<hr></hr>
+	<h1>往大海扔回瓶子</h1>
+	<form action="http://127.0.0.1:8989?back" method="post">
+		<!--owner=xxx&type=xxx&content=xxx&time=xxx-->
+		<input type="text" value="sss" name="owner" />
+		<input type="text" value="content3456" name="content" />
+		<input type="text" value="male" name="type" />
+		<input type="text" value="" name="time" />
+		<input type="submit"/>
+	</form>
+  </body>
+</html>
